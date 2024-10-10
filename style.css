@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header - CSS */
+
+.header {
+    width: 100%;
+    height: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* background-color: Black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 15%;
+    height: 70px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 100%;
+}
+
+.navigation {
+    width: 30%;
+    height: 70px;
+    /* background-color: brown; */
+}
+
+.navigation-list {
+    height: 70px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+    font-size: 17px;
+}
+.navigation-list :nth-child(1)
+{
+    color: Black;
+}
+
+/* Section - CSS */
+
+.section {
+    width: 100%;
+    height: 500px;
+    padding: 30px 9%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(30, 63, 230); */
+}
+
+.section-child {
+    width: 60%;
+    /* height: 500px; */
+    /* padding: 30px 0px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 139px;
+    /* background-color: white; */
+    /* background-color: yellow; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+
+.text1 {
+    font-size: 60px;
+    font-weight: 20;
+    /* text-shadow: 1spx 1px black; */
+}
+
+.text2 {
+    margin-top: -13px;
+    font-size: 40px;
+    font-weight: bold;
+    color: Black;
+}
+
+.text3 {
+    font-size: 16px;
+}
+
+.button {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 15px;
+
+}
+
+.button-child {
+    background-color: Black;
+    padding: 13px 23px;
+    border: 2px solid Black;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.button-child:hover {
+    color: Black;
+    background-color: transparent;
+}
+.section-child-child
+{
+    width: 20%;
+    height: 400px;
+    /* background-color: blue; */
+    /* margin-top: 10px; */
+}
+.footer-child1
+{
+    width: 100%;
+    padding: 60px 0px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+    /* justify-content: start; */
+    align-items: flex-end;
+    
+}
+.icon1
+{
+    font-size: 30px;
+    color: Black;
+    transition: .3s;
+    cursor: pointer;
+}
+.icon1:hover{
+    /* filter: grayscale(0); */
+    transform: scale(1.6);
+}
+
+
+
+
+
+/* Footer - CSS */
+.footer {
+    width: 100%;
+    height: 100px;
+    padding: 30px 9%;
+    /* background-color: yellowgreen; */
+}
+.footer-child
+{
+    width: 60%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    display: flex;
+    column-gap: 30px;
+    justify-content: start;
+    
+}
+.icon
+{
+    font-size: 30px;
+    color: Black;
+    transition: .3s;
+    cursor: pointer;
+}
+.icon:hover{
+    /* filter: grayscale(0); */
+    transform: scale(1.6);
+}
+.background
+{
+    background-size: cover;
+    /* background-image: url('images/WhatsApp\ Image\ 2024-09-26\ at\ 12.01.10\ AM.jpeg'); */
+    /* background-image: url('./mineee.jpeg'); */
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.5; */
+}
+.background-overlay
+{
+   height: 791px;
+   /* background-color: rgba(0, 0, 0, .7); */
+}
